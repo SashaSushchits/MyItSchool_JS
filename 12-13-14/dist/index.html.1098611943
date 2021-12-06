@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer="" src="/index.5d140dba.js"></script>
+    <link rel="stylesheet" href="/index.a4e33057.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#app-footer">go to footer</a>
+    <section>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis fugiat nam modi sint tenetur ex, quidem sit perferendis officia saepe perspiciatis error, inventore accusantium ullam, incidunt dolor rem ducimus!
+        </p>
+    </section>
+    <section id="app-footer"></section>
+</body>
+</html>

@@ -1,0 +1,1 @@
+import CONTAINER from './components/App'

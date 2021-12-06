@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+.btnLink {
+    font-size: 25px;
+    width: 30%;
+}
+strong {
+    font-size: 30px;
+}
+.cart-container {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+.block {
+    display: grid;
+    justify-items: center;
+    row-gap: 20px;
+}
+
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.card {
+    background: white;
+    box-shadow: -5px -5px 20px #FFFFFF, 5px 5px 20px rgba(174, 174, 192, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 15px;
+    cursor: pointer;
+}
+.card > img {
+    max-width: 50%;
+}
+
+menu {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 32px;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+body {
+    margin: 0;
+}
+
+.modal-wrapper {
+    display: flex;
+    background: #00000047;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-box {
+    position: relative;
+    background: #fff;
+    max-width: 800px;
+    width: 100%;
+    height: 70vh;
+    padding: 60px;
+}
+
+.close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.counter-block {
+    display: flex;
+    background: #F0F0F3;
+    box-shadow: inset 5px 5px 4px rgba(174, 174, 192, 0.2), inset -5px -5px 4px rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    width: 160px;
+    justify-content: space-between;
+    align-items: center;
+    color:  #A3ADB2;
+    font-size: 24px;
+}
+
+.counter-block span {
+    background: #F0F0F3;
+    box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.4), 5px 5px 10px rgba(174, 174, 192, 0.2), inset -2px -2px 4px rgba(0, 0, 0, 0.1), inset 2px 2px 4px #FFFFFF;
+    border-radius: 20px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #A3ADB2;
+    font-size: 18px;
+}
+
+#app-footer {
+    height: 50vh;
+    background-color: #A3ADB2;
+}
+.text {
+    font-size: 42px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #f3fde5;
+    display: grid;
+    grid-gap: 25px 30px;
+    width: 70%;
+    margin: 0 auto;
+    grid-template-columns: 2fr repeat(3 , 1fr);
+    grid-template-areas:
+    "footer-1 footer-5 footer-6 footer-9"
+    "footer-2 footer-7 footer-8 footer-9"
+    "footer-3 footer-10 footer-10 footer-11"
+    "footer-4 footer-10 footer-10 footer-11";
+}
+.footer a {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-1 {
+    grid-area: footer-1;
+}
+
+.footer-2 {
+    grid-area: footer-2;
+}
+
+.footer-3 {
+    grid-area: footer-3;
+}
+
+.footer-4 {
+    grid-area: footer-4;
+}
+
+.footer-5 {
+    grid-area: footer-5;
+}
+
+.footer-6 {
+    grid-area: footer-6;
+}
+
+.footer-7 {
+    grid-area: footer-7;
+}
+
+.footer-8 {
+    grid-area: footer-8;
+}
+
+.footer-9 {
+    grid-area: footer-9;
+}
+
+.footer-10 {
+    grid-area: footer-10;
+    align-self: end;
+}
+
+.footer-11 {
+    grid-area: footer-11;
+    align-self: end;
+    justify-self: right;
+}
+button {
+    font-size: 25px;
+}
+button:hover {
+    background-color: #b7ef69;
+    transform: scale(1.1);
+}
+.footer > input {
+    cursor: pointer;
+    max-width: 180px;
+    height: 35px;
+    padding-left: 15px;
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    color:white;
+    letter-spacing: 0.2em;
+}
+
+textarea {
+    cursor: pointer;
+    width: 310px;
+    height: 100px;
+    padding-left: 15px;
+    padding-top: 20px;
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    color:white;
+    letter-spacing: 0.2em;
+}
+
+.send {
+    background: #D1A954;
+    width: 180px;
+}
